@@ -16,6 +16,24 @@ button{
 }
 
 /* Shared Styles */
+.text-one{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(11, 2, 35);
+}
+
+.text-one-span{
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    background-clip: text;
+    color: transparent;
+}
+
+.text-two{
+    color: rgb(83, 76, 100);
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
 
 
 /* Navbar */
@@ -121,4 +139,77 @@ button{
 
 .banner-right img{
     width: 100%;
+}
+
+/* Our Purposes */
+.purpose{
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+}
+
+.purpose-container{
+    width: 80%;
+    margin: 0 auto 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.purpose-right{
+    text-align: right;
+}
+
+.purpose-right button{
+    width: 208px;
+    height: 65px;
+    padding: 1.3rem 2.5rem;   
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600; 
+    border-radius: 3rem;
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    margin-top: 2rem;
+}
+
+.purpose-right h4{
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(83, 76, 100);
+}
+
+
+@media screen and (max-width:576px) {
+    
+    /* Navbar */
+    .nav-container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .nav-right{
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .nav-left{
+        flex-direction: column;
+    }
+
+    /* Banner */
+    .banner{
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    /* Our Purposes */
+    .purpose-container{
+        flex-direction: column;
+        padding: 2.5rem 0 2.5rem;
+    }
+
+    .purpose-left img{
+        width: 100%;
+    }
+
+    .purpose-right{
+        text-align: center;
+    }
 }
