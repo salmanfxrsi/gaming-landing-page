@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+
+/* Default Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* Shared Styles */
+
+
+/* Navbar */
+.navbar{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+}
+
+.nav-container{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-right{
+    font-size: 2.9rem;
+    font-weight: 700;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-right span{
+    color: rgb(255, 66, 165);
+}
+
+.nav-left{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-left button{
+    color: rgb(60, 53, 79);
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: none;
+}
+
+.nav-btn{
+    background: transparent;
+}
+
+.nav-btn-follow{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    padding: 1rem 3rem;
+}
