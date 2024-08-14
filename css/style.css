@@ -64,3 +64,61 @@ button{
     background: rgba(11, 2, 35, 0.1);
     padding: 1rem 3rem;
 }
+
+/* Banner */
+.banner{
+    width: 80%;
+    margin: 6rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-left h1{
+    color: rgb(11, 2, 35);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.banner-left h2{
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    background-clip: text;
+    color: transparent;
+    font-size: 6rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.banner-left h3{
+    color: rgb(83, 76, 100);
+    font-size: 1.5rem;
+    font-weight: 500;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.banner-left button{
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 1.2rem 2.5rem;
+}
+
+.banner-btn1{
+    width: 156px;
+    height: 65px;
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    border-radius: 3rem;
+    margin-top: 1.5rem;
+}
+
+.banner-btn2{
+    border-radius: 3rem;
+    background: rgb(78, 197, 247);
+    width: 185px;
+    height: 65px;
+}
+
+.banner-right img{
+    width: 100%;
+}

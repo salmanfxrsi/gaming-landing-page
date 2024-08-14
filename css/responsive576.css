@@ -14,4 +14,11 @@
     .nav-left{
         flex-direction: column;
     }
+
+    /* Banner */
+    .banner{
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
 }
