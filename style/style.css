@@ -410,7 +410,8 @@ button{
     }
 
     .category-card{
-        width: 200px;
+        width: 185px;
+        gap: 0.2rem;
     }
 
 }
