@@ -410,8 +410,12 @@ button{
     }
 
     .category-card{
-        width: 185px;
+        width: 160px;
         gap: 0.2rem;
+    }
+
+    .category-card h1{
+        font-size: 1rem;
     }
 
 }
