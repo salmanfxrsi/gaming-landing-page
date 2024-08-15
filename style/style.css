@@ -278,6 +278,42 @@ button{
     max-width: 318.5px;
 }
 
+/* Gaming Category */
+.category{
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+}
+
+.category-container{
+    width: 75%;
+    margin: 0 auto;
+    padding: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.category-card{
+    width: 243px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.category-card img{
+    width: 60px;
+}
+
+.category-card h1{
+    color: rgb(11, 2, 35);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.category-card:hover{
+    border: 1px solid rgb(255, 66, 165);
+}
 
 @media screen and (max-width:576px) {
     
@@ -366,4 +402,15 @@ button{
         max-width: 150px;
     }
     
+    /* Gaming Category */
+    .category-container{
+        width: 100%;
+        padding: 0;
+        gap: 1rem;
+    }
+
+    .category-card{
+        width: 200px;
+    }
+
 }
