@@ -225,7 +225,7 @@ button{
 /* Play Instantly */
 .play-instantly{
     width: 80%;
-    margin: 0 auto 6rem;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -302,6 +302,7 @@ button{
     /* Play Instantly */
     .play-instantly{
         flex-direction: column;
+        gap: 4rem;
     }
 
     .play-instantly-left{
@@ -309,7 +310,14 @@ button{
     }
     
     .play-instantly-right{
-        display: none;
+        width: 30%;
     }
 
+    .angela{
+        max-width: 150px;
+    }
+
+    .horse{
+        max-width: 200px;
+    }
 }
