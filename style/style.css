@@ -195,8 +195,62 @@ button{
 .video{
     text-align: left;
     max-width: 342px;
+    position: relative;
+    cursor: pointer;
 }
 
+.watch-video{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    display: none;  
+}
+
+.watch-video i{
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.watch-video p{
+    font-size: 1rem;
+    color: white;
+    font-weight: 900;
+}
+
+.video img:hover ~ .watch-video{
+    display: block;
+}
+
+/* Play Instantly */
+.play-instantly{
+    width: 80%;
+    margin: 0 auto 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.play-instantly-left{
+    text-align: right;
+}
+
+.play-instantly-right{
+    position: relative;
+}
+
+.horse{
+    border-radius: 0.5rem;
+    max-width: 634.83px;
+}
+
+.angela{
+    position: absolute;
+    left: -6rem;
+    bottom: -6rem;
+    max-width: 318.5px;
+}
 
 @media screen and (max-width:576px) {
     
@@ -240,4 +294,22 @@ button{
         flex-direction: column;
         align-items: center;
     }
+
+    .watch-video{
+        display: block;
+    }
+
+    /* Play Instantly */
+    .play-instantly{
+        flex-direction: column;
+    }
+
+    .play-instantly-left{
+        text-align: center;
+    }
+    
+    .play-instantly-right{
+        display: none;
+    }
+
 }
