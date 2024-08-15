@@ -252,6 +252,33 @@ button{
     max-width: 318.5px;
 }
 
+/* Play Games Online */
+.play-online{
+    width: 80%;
+    margin: 12rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.play-online-left{
+    position: relative;
+}
+
+.play-online-img1{
+    border-radius: 0.5rem;
+    max-width: 634.83px;
+}
+
+.play-online-img2{
+    position: absolute;
+    left: -6rem;
+    bottom: -6rem;
+    max-width: 318.5px;
+}
+
+
 @media screen and (max-width:576px) {
     
     /* Navbar */
@@ -306,18 +333,37 @@ button{
     }
 
     .play-instantly-left{
-        text-align: center;
+        text-align: left;
     }
     
     .play-instantly-right{
         width: 30%;
     }
 
+    .horse{
+        max-width: 200px;
+    }
+    
     .angela{
         max-width: 150px;
     }
 
-    .horse{
+    /* Play Games Online */
+    .play-online{
+        flex-direction: column-reverse;
+        gap: 4rem;
+    }
+
+    .play-online-left{
+        width: 30%;
+    }
+    
+    .play-online-img1{
         max-width: 200px;
     }
+
+    .play-online-img2{
+        max-width: 150px;
+    }
+    
 }
